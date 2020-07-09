@@ -8,17 +8,31 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <span className="blue">
+            This {' '}
+          </span>
+          <span className="pink">
+            is {' '}
+          </span>
+          <span>
+            a work {' '}
+          </span>
+          <span className="pink">
+            in {' '}
+          </span>
+          <span className="blue">
+            progress!
+          </span>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <style jsx>{`
+        .blue {
+          color: #5BCEFA;
+        }
+        .pink {
+          color: #F5A9B8;
+        }
+      `}</style>
     </div>
   );
 }
