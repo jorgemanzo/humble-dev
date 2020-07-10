@@ -1,38 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './components/navbar'
+import Headline from './components/headline'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <span className="blue">
-            This {' '}
-          </span>
-          <span className="pink">
-            is {' '}
-          </span>
-          <span>
-            a work {' '}
-          </span>
-          <span className="pink">
-            in {' '}
-          </span>
-          <span className="blue">
-            progress!
-          </span>
-        </p>
-      </header>
-      <style jsx>{`
-        .blue {
-          color: #5BCEFA;
-        }
-        .pink {
-          color: #F5A9B8;
-        }
-      `}</style>
+      <Router>
+        <Navbar/>
+        <Headline/>
+        <header className="App-header">
+          <p>
+            This is a work in progress!
+          </p>
+        </header>
+        <style jsx>{`
+          .App {
+            text-align: center;
+          }
+
+          p {
+            color: black;
+          }
+
+          .App-header {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: calc(10px + 2vmin);
+            color: white;
+          }
+        `}</style>
+      </Router>
     </div>
   );
 }
