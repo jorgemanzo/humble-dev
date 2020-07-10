@@ -18,12 +18,14 @@ const Headline = () => {
       <style jsx>{`
         .row {
           display: flex;
-          justify-content: space-evenly;
+          justify-content: center;
           align-items: center;
         }
         
         .root {
-          margin: 25px;
+          margin-top: 25px;
+          margin-left: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
+          margin-right: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
         }
       `}</style>
     </div>

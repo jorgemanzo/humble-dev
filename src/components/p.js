@@ -1,15 +1,17 @@
 import React from 'react'
 
-const H1 = (props) => {
+const P = (props) => {
 
   return (
     <div>
-        <h1>{props.h1}</h1>
-        <style jsx>{`
-        h1 {
+      <p>{props.text}</p>
+      <style jsx>{`
+        p {
           margin-left: calc(15px + (230 - 15) * ((100vw - 300px) / (1600 - 300)));
           margin-right: calc(15px + (230 - 15) * ((100vw - 300px) / (1600 - 300)));
-          font-size: calc(18pt + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+          margin-top: 35px;
+          text-align: left;
+          font-size: calc(12pt + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
           padding: 15px;
         }
       `}</style>
@@ -17,4 +19,4 @@ const H1 = (props) => {
   )
 }
 
-export default H1
+export default P

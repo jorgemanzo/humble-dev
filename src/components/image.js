@@ -9,8 +9,8 @@ const Selfie = (props) => {
       <em>{props.captionText}</em>
       <style jsx>{`
           img {
-            width: 203px;
-            height: 203px;
+            width: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));
+            height: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));
             border-radius: 25px;
           }
       `}</style>
