@@ -15,6 +15,10 @@ const Headline = () => {
     justify-content: center;
     align-items: center;
   `
+  const StyledH1 = styled.div`
+    margin-left: calc(15px + (230 - 15) * ((100vw - 300px) / (1600 - 300)));
+    margin-right: calc(15px + (230 - 15) * ((100vw - 300px) / (1600 - 300)));
+  `
   return (
     <StyledRoot>
       <StyledRow>
@@ -23,7 +27,9 @@ const Headline = () => {
           altText="Photo of Myself" 
           captionText="Hi!" 
         />
-        <H1 className="item" h1="Welcome to my thing!" />
+        <StyledH1>
+          <H1>Welcome to my thing!</H1>
+        </StyledH1>
       </StyledRow>
     </StyledRoot>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/navbar'
 import Home from './pages/home'
+import Resume from './pages/resume'
 import styled from '@emotion/styled'
 import {
   BrowserRouter as Router,
@@ -15,6 +16,9 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
+          <Route path="/resume">
+            <Resume />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
