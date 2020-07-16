@@ -8,7 +8,7 @@ const Selfie = (props) => {
     border-radius: 25px;
   `
   return (
-
+    
     <div>
       <StyledImage src={props.imgSrc} alt={props.altText}/>
       <br/>
