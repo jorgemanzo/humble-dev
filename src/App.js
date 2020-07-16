@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/navbar'
 import Home from './pages/home'
+import styled from '@emotion/styled'
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,8 +9,9 @@ import {
 } from 'react-router-dom'
 
 function App() {
+  const CenteredApp = styled.div`text-align: center;`
   return (
-    <div className="App">
+    <CenteredApp>
       <Router>
         <Navbar/>
         <Switch>
@@ -18,16 +20,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      <style jsx>{`
-        .App {
-          text-align: center;
-        }
-
-        p {
-          color: black;
-        }
-      `}</style>
-    </div>
+    </CenteredApp>
   );
 }
 
