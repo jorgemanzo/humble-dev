@@ -1,0 +1,30 @@
+[
+    {
+        "title":"Peerist Web App",
+        "employer" : "Senior Capstone Project",
+        "dates" : "September 2019 - May 2020",
+        "description" : "Developed a web application to facilitate feedback gathering for Academic Writers.",
+        "bullets" : [
+            {
+                "point" : "Coordinated requirements gathering for our development team and our client."
+            },
+            {
+                "point" : "Designed database schema using the Hasura GraphQL engine, Postgres, Docker, and a front-end using React."
+            }
+        ]
+    },
+    {
+        "title":"Code Editor, Elementary OS",
+        "employer" : "Open Source Contribution",
+        "dates" : "October 2019",
+        "description" : "Added a status indicator for text searching to the Code editor included in the Elementary OS Linux distribution. Change was requested by a user with difficulty seeing red and green colors. Used Vala (similar to Java) to complete the change.",
+        "bullets" : []
+    },
+    {
+        "title":"CLI, QMK Firmware",
+        "employer" : "Open Source Contribution",
+        "dates" : "October 2019",
+        "description" : "Contributed to a CLI tool using Python to assist users flashing mechanical keyboard firmware. Changes also included documentation written in Markdown and unit tests.",
+        "bullets" : []
+    }
+]

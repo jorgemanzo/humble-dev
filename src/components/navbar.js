@@ -34,6 +34,12 @@ const Navbar = () => {
           <StyledLi>
             <Link to="/resume">Resume</Link>
           </StyledLi>
+          <StyledLi>
+            <a href="https://github.com/jorgemanzo">GitHub</a>
+          </StyledLi>
+          <StyledLi>
+            <a href="https://linkedin.com/in/manzoj">LinkedIn</a>
+          </StyledLi>
         </StyledUl>
       </nav>
     </div>

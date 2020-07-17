@@ -15,27 +15,24 @@
                 "point" : "Wrote Apex Unit Testing suites to meet the platform's required code coverage in order to deploy each project to production."
             },
             {
-                "point" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "point" : "Created full stack web applications using JavaScript (ES5/ES6), HTML, CSS on Salesforce."
             },
             {
-                "point" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            },
-            {
-                "point" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "point" : "Followed modified Agile development methodology."
             }
         ]
     },
     {
-        "title":"Student Analyst / Programmer",
+        "title":"Student Technician",
         "employer" : "Oregon State University",
-        "dates" : "June 2018 - June 2020",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "dates" : "December 2017 - June 2018",
+        "description" : "Provided technical support to students and faculty of Oregon State University Information Services.",
         "bullets" : [
             {
-                "point" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "point" : "Supported over 35,000 students and a diverse set of faculty, staff and professionals across the university."
             },
             {
-                "point" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "point" : "Provided customer service over the phone, in person, and via remote desktop connection."
             }
         ]
     }

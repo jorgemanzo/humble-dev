@@ -10,18 +10,23 @@ const Experience = (props) => {
         margin-top: 25px;
     `
     const SmallerH1 = styled.h1`
-        font-size: calc(14pt + (24 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-size: calc(14pt + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
     `
     const Employer = styled.em`
         margin-top: 26px;
+        margin-left: 50px;
+        margin-right: 50px;
+    `
+    const BottomMargin = styled.div`
+        margin-bottom: 25px;
     `
     return (
-        <div>
+        <BottomMargin>
             <WorkTitle>
                 <SmallerH1>{props.title}</SmallerH1>
-                <Employer>{props.employer}</Employer>
                 <SmallerH1>{props.dates}</SmallerH1>
             </WorkTitle>
+            <Employer>{props.employer}</Employer>
             <P>
                 {props.description}
             </P>
@@ -32,7 +37,7 @@ const Experience = (props) => {
                     )
                 }
             </ul>
-        </div>
+        </BottomMargin>
     )
 }
 

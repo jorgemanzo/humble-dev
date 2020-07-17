@@ -23,12 +23,11 @@ const Headline = () => {
     <StyledRoot>
       <StyledRow>
         <Selfie 
-          imgSrc={`https://avatars3.githubusercontent.com/u/26660036`} 
           altText="Photo of Myself" 
-          captionText="Hi!" 
+          captionText="Jorge Manzo" 
         />
         <StyledH1>
-          <H1>Welcome to my thing!</H1>
+          <H1>The Humble Developer</H1>
         </StyledH1>
       </StyledRow>
     </StyledRoot>

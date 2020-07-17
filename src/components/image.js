@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import me from '../images/me.jpeg'
 
 const Selfie = (props) => {
   const StyledImage = styled.img`
@@ -10,7 +11,7 @@ const Selfie = (props) => {
   return (
     
     <div>
-      <StyledImage src={props.imgSrc} alt={props.altText}/>
+      <StyledImage src={me} alt={props.altText}/>
       <br/>
       <em>{props.captionText}</em>
     </div>
