@@ -1,0 +1,39 @@
+[
+    {
+        "title":"Student Analyst / Programmer",
+        "employer" : "Oregon State University",
+        "dates" : "June 2018 - June 2020",
+        "description" : "Implemented software applications in multiple programming languages alongside full-time software engineers and graduate faculty.",
+        "bullets" : [
+            {
+                "point" : "Contributed to and gained experience leading projects throughout the software development life cycle from requirements gathering to release and maintenance."
+            },
+            {
+                "point" : "Developed Object-Oriented (OOP) applications in Salesforce's PaaS environment using Apex (similar to Java) and SOQL (similar to SQL) with attention to shared tenancy constraints."
+            },
+            {
+                "point" : "Wrote Apex Unit Testing suites to meet the platform's required code coverage in order to deploy each project to production."
+            },
+            {
+                "point" : "Created full stack web applications using JavaScript (ES5/ES6), HTML, CSS on Salesforce."
+            },
+            {
+                "point" : "Followed modified Agile development methodology."
+            }
+        ]
+    },
+    {
+        "title":"Student Technician",
+        "employer" : "Oregon State University",
+        "dates" : "December 2017 - June 2018",
+        "description" : "Provided technical support to students and faculty of Oregon State University Information Services.",
+        "bullets" : [
+            {
+                "point" : "Supported over 35,000 students and a diverse set of faculty, staff and professionals across the university."
+            },
+            {
+                "point" : "Provided customer service over the phone, in person, and via remote desktop connection."
+            }
+        ]
+    }
+]

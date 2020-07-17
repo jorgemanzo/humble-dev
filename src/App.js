@@ -1,39 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './components/navbar'
+import Home from './pages/home'
+import Resume from './pages/resume'
+import styled from '@emotion/styled'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
 
 function App() {
+  const CenteredApp = styled.div`text-align: center;`
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <span className="blue">
-            This {' '}
-          </span>
-          <span className="pink">
-            is {' '}
-          </span>
-          <span>
-            a work {' '}
-          </span>
-          <span className="pink">
-            in {' '}
-          </span>
-          <span className="blue">
-            progress!
-          </span>
-        </p>
-      </header>
-      <style jsx>{`
-        .blue {
-          color: #5BCEFA;
-        }
-        .pink {
-          color: #F5A9B8;
-        }
-      `}</style>
-    </div>
+    <CenteredApp>
+      <Router>
+        <Navbar/>
+        <Switch>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    </CenteredApp>
   );
 }
 

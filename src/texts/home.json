@@ -1,0 +1,40 @@
+[
+  {
+    "title":"",
+    "employer" : "",
+    "dates" : "",
+    "description" : "Hi there! I am an aspiring associate software engineer looking to start growing their career. Having completed my Bachelor's of Science in Computer Science (with a focus on Programming Language design, Compilers and Machine Learning), I am ready to start applying what I have learned to deliver high quality code to end users.",
+    "bullets" : []
+  },
+  {
+    "title":"",
+    "employer" : "",
+    "dates" : "",
+    "description" : "I always keep learning; whether it is a new web framework, a new programming language, or diving close to the hardware and learning how operating systems virtualize the hardware and manage resources, I have an insatiable curiosity.",
+    "bullets" : []
+  },
+  {
+    "title":"",
+    "employer" : "",
+    "dates" : "",
+    "description" : "Lately my interests include:",
+    "bullets" : [
+      {
+        "point" : "Laravel PHP for quickly developing RESTful API endpoints and connecting web apps to MySQL-like databases using the Eloquent ORM"
+      },
+      {
+        "point" : "Creating my own personal web app (this one) using ReactJS, Emotion for styling, and hosted on Heroku"
+      },
+      {
+        "point" : "Exploring lower-level operating system Kernel development, by starting with writing a bootloader using NASM, switching from real mode to protected mode, and jumping to C code using an emulated Intel i386."
+      }
+    ]
+  },
+  {
+    "title":"",
+    "employer" : "",
+    "dates" : "",
+    "description" : "I want to learn from the best software engineers to deliver high quality software to end users. I enjoy growing my skill set using both old and new technologies, solving challenging problems across the software stack. Best of all, I want to contribute to new and existing work by bringing a humble perspective, curiosity, and friendliness.",
+    "bullets" : []
+  }
+]
