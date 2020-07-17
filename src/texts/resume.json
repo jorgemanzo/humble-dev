@@ -3,8 +3,20 @@
         "title":"Student Analyst / Programmer",
         "employer" : "Oregon State University",
         "dates" : "June 2018 - June 2020",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description" : "Implemented software applications in multiple programming languages alongside full-time software engineers and graduate faculty.",
         "bullets" : [
+            {
+                "point" : "Contributed to and gained experience leading projects throughout the software development life cycle from requirements gathering to release and maintenance."
+            },
+            {
+                "point" : "Developed Object-Oriented (OOP) applications in Salesforce's PaaS environment using Apex (similar to Java) and SOQL (similar to SQL) with attention to shared tenancy constraints."
+            },
+            {
+                "point" : "Wrote Apex Unit Testing suites to meet the platform's required code coverage in order to deploy each project to production."
+            },
+            {
+                "point" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
             {
                 "point" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },

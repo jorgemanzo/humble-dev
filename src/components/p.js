@@ -6,7 +6,6 @@ const StyledP = styled.p`
   margin-top: 35px;
   text-align: left;
   font-size: calc(12pt + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
-  padding: 15px;
 `
 
 export default StyledP
