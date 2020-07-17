@@ -5,12 +5,13 @@ import Bullet from './bullet'
 const Experience = (props) => {
     const WorkTitle = styled.div`
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
         margin-top: 25px;
     `
     const SmallerH1 = styled.h1`
         font-size: calc(14pt + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+        margin: 15px;
     `
     const Employer = styled.em`
         margin-top: 26px;
