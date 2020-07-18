@@ -10,7 +10,7 @@ import {
 } from 'react-router-dom'
 
 function App() {
-  const CenteredApp = styled.div`text-align: center;`
+  const CenteredApp = styled.div`text-align: center; padding-bottom: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));`
   return (
     <CenteredApp>
       <Router>
