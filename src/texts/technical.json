@@ -1,0 +1,36 @@
+[
+    {
+        "values" : ["Windows,", "Ubuntu Linux,", "OSX"],
+        "name" : "Operating Systems"
+    },
+    {
+        "name" : "Languages",
+        "values" : [
+            "Apex,", "Java,", "JavaScript ES6,", "C++/C,", "Rust,", "Vala,", "Swift,", "NASM,", "GObject,", "Python,", "Haskell,", "R,",
+            "HTML5,", "CSS,", "XML,", "JSON,", "SQL / SOQL,", "GraphQL,", "Bash / Shell scripting,", "Batch"
+        ]
+    },
+    {
+        "name" : "Tools / Databases",
+        "values" : [
+            "MariaDB,", "MySQL,", "Eloquent ORM,", "SSH,", "Ansible,", "TravisCI,", "Docker,", "Docker-Compose,", "NPM,", 
+            "Git,", "GitHub,", "Jenkins,", "DataGrip,", "IntelliJ,", "Visual Studio Code,", "Makefile,", "Gtk+,", "Meson,",
+            "Visual Studio,", "GDB,", "Valgrind"
+        ]
+    },
+    {
+        "name" : "Frameworks / Libraries",
+        "values" : [
+            "ReactJS,", "NextJS,", "TypeScript,", "Redux,", "VueJS,", "NodeJS,", "Express,", "Laravel PHP,", "Boostrap,",
+            "OpenMP,", "OpenCL,", "OpenGL,", "CUDA,", "Flex,", "Bison,", "LLVM,", "VisualForce,", "Lightning,", "ROS"
+        ]
+    },
+    {
+        "values" : ["Heroku,", "Digital Ocean,", "Salesforce"],
+        "name" : "Service Platforms"
+    },
+    {
+        "name" : "Methodology",
+        "values" : ["Agile,", "Waterfall,", "Design Patterns,", "MVC,", "OOP,", "RAII,", "PaaS,", "SDLC,", "TDD"]
+    }
+]

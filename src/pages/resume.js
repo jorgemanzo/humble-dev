@@ -4,6 +4,7 @@ import workExperience from '../texts/resume.json'
 import projects from '../texts/projects.json'
 import education from '../texts/education.json'
 import objective from '../texts/objective.json'
+import SkillsTable from '../components/table'
 import styled from '@emotion/styled'
 const Resume = () => {
     const Container = styled.div`
@@ -58,6 +59,8 @@ const Resume = () => {
                             bullets={work.bullets}
                         />
                 )}
+                <Section>Technical Skill</Section>
+                <SkillsTable/>
             </Container>
         </div>
     )
