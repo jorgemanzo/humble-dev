@@ -19,14 +19,16 @@ const Table = (props) => {
     return (
         <div>
             <LeftTable>
-                {technical.map(row => {
-                    return (
-                        <tr>
-                            <PadData><b>{row.name}</b></PadData>
-                            <PadData>{row.values.map(value => `${value} `)}</PadData>
-                        </tr>
-                    )
-                })}
+                <tbody>
+                    {technical.map( (row,index) => {
+                        return (
+                            <tr key={index}>
+                                <PadData><b>{row.name}</b></PadData>
+                                <PadData>{row.values.map(value => `${value} `)}</PadData>
+                            </tr>
+                        )
+                    })}
+                </tbody>
             </LeftTable>
         </div>
     )

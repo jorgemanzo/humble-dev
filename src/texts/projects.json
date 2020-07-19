@@ -1,9 +1,36 @@
 [
     {
+        "title":"Graduate Digital Program of Study",
+        "employer" : "Oregon State University",
+        "dates" : "June 2018 - July 2020",
+        "description" : "Developed software to provide over 3,500 graduate students tools for their Program of Study using the Salesforce platform.",
+        "link" : "https://gradschool.oregonstate.edu/forms#program",
+        "bullets" : [
+            { "point" : "Designed a kanban-style degree planner for students connected to a database of hundereds of courses." },
+            { "point" : "Automated requirements checking giving the student instant feedback on their course selection." },
+            { "point" : "Featured automatic PDF generation saving students and staff time by eliminating the need for hand-written forms."},
+            { "point" : "Consolidated the need from 10 different paper forms to a component based, extensible system for digital form generation."},
+            { "point" : "Tailored the system to meet the requirements of over 80 unique graduate programs."}
+        ]
+    },
+    {
+        "title":"Graduate Application Notifier",
+        "employer" : "Oregon State University",
+        "dates" : "June 2018 - July 2020",
+        "description" : "Migrated an existing legacy process used to notify university graduate faculty of newly submitted graduate applications to Salesforce.",
+        "bullets" : [
+            { "point" : "Used the MVC and OOP design patterns to maintain code organization, maintainability and ease of use."},
+            { "point" : "Created a unit test suite to completely cover the project well past the platform required 75% line coverage." },
+            { "point" : "Automated the sorting of hundreds of student applications and routed via email to faculty and staff specified subscriptions."},
+            { "point" : "Scheduled the porcess to run automatically every day, staying within the platform's governor limits."}
+        ]
+    },
+    {
         "title":"Peerist Web App",
         "employer" : "Senior Capstone Project",
         "dates" : "September 2019 - May 2020",
         "description" : "Developed a web application to facilitate feedback gathering for Academic Writers.",
+        "link" : "https://github.com/peerist/capstone",
         "bullets" : [
             {
                 "point" : "Coordinated requirements gathering for our development team and our client."
@@ -15,9 +42,18 @@
     },
     {
         "title":"Code Editor, Elementary OS",
+        "employer" : "Work in Progress Open Source Contribution",
+        "dates" : "June 2020",
+        "description" : "Implemented Git-diff style line change markers to the Code editor included in the Elementary OS Linux distribution.",
+        "link" : "https://github.com/elementary/code/pull/835",
+        "bullets" : []
+    },
+    {
+        "title":"Code Editor, Elementary OS",
         "employer" : "Open Source Contribution",
         "dates" : "October 2019",
         "description" : "Added a status indicator for text searching to the Code editor included in the Elementary OS Linux distribution. Change was requested by a user with difficulty seeing red and green colors. Used Vala (similar to Java) to complete the change.",
+        "link" : "https://github.com/elementary/code/pull/720",
         "bullets" : []
     },
     {
@@ -25,6 +61,7 @@
         "employer" : "Open Source Contribution",
         "dates" : "October 2019",
         "description" : "Contributed to a CLI tool using Python to assist users flashing mechanical keyboard firmware. Changes also included documentation written in Markdown and unit tests.",
+        "link" : "https://github.com/qmk/qmk_firmware/pull/6998",
         "bullets" : []
     }
 ]

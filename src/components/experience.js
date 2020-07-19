@@ -2,6 +2,8 @@ import React from 'react'
 import styled from '@emotion/styled'
 import P from './p'
 import Bullet from './bullet'
+import Source from './simpleLink'
+import Extern from '../images/external-link.svg'
 const Experience = (props) => {
     const WorkTitle = styled.div`
         display: flex;
@@ -27,14 +29,22 @@ const Experience = (props) => {
                 <SmallerH1>{props.title}</SmallerH1>
                 <SmallerH1>{props.dates}</SmallerH1>
             </WorkTitle>
-            <Employer>{props.employer}</Employer>
+            {
+                props.link ?
+                <Employer>
+                    <Source href={props.link} target="_blank">
+                        {props.employer}&nbsp;<img alt="Open Link in a New Tab" src={Extern}></img>
+                    </Source>
+                </Employer> : 
+                <Employer>{props.employer}</Employer>
+            }
             <P>
                 {props.description}
             </P>
             <ul>
                 {
                     props.bullets.map(
-                        bullet => <Bullet>{bullet.point}</Bullet>
+                        (bullet, index) => <Bullet key={index}>{bullet.point}</Bullet>
                     )
                 }
             </ul>
