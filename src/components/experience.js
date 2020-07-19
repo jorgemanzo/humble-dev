@@ -17,8 +17,8 @@ const Experience = (props) => {
     `
     const Employer = styled.em`
         margin-top: 26px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 10vw;
+        padding-right: 10vw;
     `
     const BottomMargin = styled.div`
         margin-bottom: 25px;
