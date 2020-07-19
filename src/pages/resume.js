@@ -28,7 +28,7 @@ const Resume = () => {
                 <PaddedCode>
                     <Link href="mailto:jorge@humble-dev.app">jorge@humble-dev.app</Link>
                     &nbsp;
-                    <img src={Mail}></img>
+                    <img src={Mail} alt="Email Jorge Manzo"></img>
                 </PaddedCode>
                 <Section>Objective</Section>
                 {objective.map( (work, index) => 
