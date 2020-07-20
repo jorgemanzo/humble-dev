@@ -3,6 +3,7 @@
         "title":"Student Analyst / Programmer",
         "employer" : "Oregon State University",
         "dates" : "June 2018 - June 2020",
+        "section" : "student_analyst_programmer",
         "description" : "Implemented software applications in multiple programming languages alongside full-time software engineers and graduate faculty.",
         "bullets" : [
             {
@@ -26,6 +27,7 @@
         "title":"Student Technician",
         "employer" : "Oregon State University",
         "dates" : "December 2017 - June 2018",
+        "section" : "student_support_technician",
         "description" : "Provided technical support to students and faculty of Oregon State University Information Services.",
         "bullets" : [
             {

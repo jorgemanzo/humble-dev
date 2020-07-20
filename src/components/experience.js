@@ -25,10 +25,13 @@ const Experience = (props) => {
     `
     return (
         <BottomMargin>
-            <WorkTitle>
-                <SmallerH1>{props.title}</SmallerH1>
-                <SmallerH1>{props.dates}</SmallerH1>
-            </WorkTitle>
+            <div><Source name={props.section}></Source></div>
+            <Source href={`#${props.section}`}>
+                <WorkTitle >
+                    <SmallerH1>{props.title}</SmallerH1>
+                    <SmallerH1>{props.dates}</SmallerH1>
+                </WorkTitle>
+            </Source>
             {
                 props.link ?
                 <Employer>

@@ -40,6 +40,7 @@ const Resume = () => {
                             description={work.description}
                             bullets={work.bullets}
                             link={work.link}
+                            section={work.section}
                         />
                 )}
                 <Section>Education</Section>
@@ -52,9 +53,11 @@ const Resume = () => {
                             description={work.description}
                             bullets={work.bullets}
                             link={work.link}
+                            section={work.section}
                         />
                 )}
-                <Section>Work Experience</Section>
+                <Link name="work_experience"></Link>
+                <Link href="#work_experience"><Section>Work Experience</Section></Link>
                 {workExperience.map( (work, index) => 
                         <Experience
                             key={index}
@@ -64,9 +67,11 @@ const Resume = () => {
                             description={work.description}
                             bullets={work.bullets}
                             link={work.link}
+                            section={work.section}
                         />
                 )}
-                <Section>Projects</Section>
+                <Link name="projects"></Link>
+                <Link href="#projects"><Section>Projects</Section></Link>
                 {projects.map( (work, index) => 
                         <Experience
                             key={index}
@@ -76,9 +81,11 @@ const Resume = () => {
                             description={work.description}
                             bullets={work.bullets}
                             link={work.link}
+                            section={work.section}
                         />
                 )}
-                <Section>Technical Skill</Section>
+                <Link href="#technical_skill"></Link>
+                <Link name="technical_skill"></Link><Section>Technical Skill</Section>
                 <SkillsTable/>
             </Container>
         </div>

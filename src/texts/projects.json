@@ -5,6 +5,7 @@
         "dates" : "June 2018 - July 2020",
         "description" : "Developed software to provide over 3,500 graduate students tools for their Program of Study using the Salesforce platform.",
         "link" : "https://gradschool.oregonstate.edu/forms#program",
+        "section" : "graduate_program_of_study",
         "bullets" : [
             { "point" : "Designed a kanban-style degree planner for students connected to a database of hundereds of courses." },
             { "point" : "Automated requirements checking giving the student instant feedback on their course selection." },
@@ -17,6 +18,7 @@
         "title":"Graduate Application Notifier",
         "employer" : "Oregon State University",
         "dates" : "June 2018 - July 2020",
+        "section" : "graduate_application_notifier",
         "description" : "Migrated an existing legacy process used to notify university graduate faculty of newly submitted graduate applications to Salesforce.",
         "bullets" : [
             { "point" : "Used the MVC and OOP design patterns to maintain code organization, maintainability and ease of use."},
@@ -29,6 +31,7 @@
         "title":"Peerist Web App",
         "employer" : "Senior Capstone Project",
         "dates" : "September 2019 - May 2020",
+        "section" : "peerist_web_app",
         "description" : "Developed a web application to facilitate feedback gathering for Academic Writers.",
         "link" : "https://github.com/peerist/capstone",
         "bullets" : [
@@ -44,6 +47,7 @@
         "title":"Code Editor, Elementary OS",
         "employer" : "Work in Progress Open Source Contribution",
         "dates" : "June 2020",
+        "section" : "code_git_diff",
         "description" : "Implemented Git-diff style line change markers to the Code editor included in the Elementary OS Linux distribution.",
         "link" : "https://github.com/elementary/code/pull/835",
         "bullets" : []
@@ -52,6 +56,7 @@
         "title":"Code Editor, Elementary OS",
         "employer" : "Open Source Contribution",
         "dates" : "October 2019",
+        "section" : "code_status_indicator",
         "description" : "Added a status indicator for text searching to the Code editor included in the Elementary OS Linux distribution. Change was requested by a user with difficulty seeing red and green colors. Used Vala (similar to Java) to complete the change.",
         "link" : "https://github.com/elementary/code/pull/720",
         "bullets" : []
@@ -60,6 +65,7 @@
         "title":"CLI, QMK Firmware",
         "employer" : "Open Source Contribution",
         "dates" : "October 2019",
+        "section" : "qmk_firmware_cli",
         "description" : "Contributed to a CLI tool using Python to assist users flashing mechanical keyboard firmware. Changes also included documentation written in Markdown and unit tests.",
         "link" : "https://github.com/qmk/qmk_firmware/pull/6998",
         "bullets" : []
