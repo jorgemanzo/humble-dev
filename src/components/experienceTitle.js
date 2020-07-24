@@ -2,17 +2,8 @@ import React from 'react'
 import styled from '@emotion/styled';
 import Source from './simpleLink'
 import Extern from '../images/external-link.svg'
+import Header from './sectionHeader'
 const ExperienceTitle = (props) => {
-    const WorkTitle = styled.div`
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 25px;
-    `
-    const SmallerH1 = styled.h1`
-        font-size: calc(14pt + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
-        margin: 15px;
-    `
     const Employer = styled.em`
         margin-top: 26px;
         margin-left: 10vw;
@@ -20,13 +11,11 @@ const ExperienceTitle = (props) => {
     `
     return (
         <div>
-            <div><Source name={props.section}></Source></div>
-            <Source href={`#${props.section}`}>
-                <WorkTitle >
-                    <SmallerH1>{props.title}</SmallerH1>
-                    <SmallerH1>{props.dates}</SmallerH1>
-                </WorkTitle>
-            </Source>
+            <Header 
+                section={props.section}
+                title={props.title}
+                dates={props.dates}
+            />
             {
                 props.link ?
                 <Employer>
