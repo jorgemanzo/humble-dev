@@ -10,18 +10,14 @@ const Experience = (props) => {
     return (
         <BottomMargin>
             <ExperienceTitle 
-                section={props.section}
-                title={props.title}
-                dates={props.dates}
-                link={props.link}
-                employer={props.employer}
+                data={props.data}
             />
             <P>
-                {props.description}
+                {props.data.description}
             </P>
             <ul>
                 {
-                    props.bullets.map(
+                    props.data.bullets.map(
                         (bullet, index) => <Bullet key={index}>{bullet.point}</Bullet>
                     )
                 }

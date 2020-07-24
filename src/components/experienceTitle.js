@@ -12,18 +12,16 @@ const ExperienceTitle = (props) => {
     return (
         <div>
             <Header 
-                section={props.section}
-                title={props.title}
-                dates={props.dates}
+                data={props.data}
             />
             {
-                props.link ?
+                props.data.link ?
                 <Employer>
-                    <Source href={props.link} target="_blank">
-                        {props.employer}&nbsp;<img alt="Open Link in a New Tab" src={Extern}></img>
+                    <Source href={props.data.link} target="_blank">
+                        {props.data.employer}&nbsp;<img alt="Open Link in a New Tab" src={Extern}></img>
                     </Source>
                 </Employer> : 
-                <Employer>{props.employer}</Employer>
+                <Employer>{props.data.employer}</Employer>
             }
         </div>
     )

@@ -34,13 +34,7 @@ const Resume = () => {
                 {objective.map( (work, index) => 
                         <Experience
                             key={index}
-                            title={work.title}
-                            employer={work.employer}
-                            dates={work.dates}
-                            description={work.description}
-                            bullets={work.bullets}
-                            link={work.link}
-                            section={work.section}
+                            data={work}
                         />
                 )}
                 <Section 
@@ -50,13 +44,7 @@ const Resume = () => {
                 {education.map( (work, index) => 
                         <Experience
                             key={index}
-                            title={work.title}
-                            employer={work.employer}
-                            dates={work.dates}
-                            description={work.description}
-                            bullets={work.bullets}
-                            link={work.link}
-                            section={work.section}
+                            data={work}
                         />
                 )}
                 <Section 
@@ -66,13 +54,7 @@ const Resume = () => {
                 {workExperience.map( (work, index) => 
                         <Experience
                             key={index}
-                            title={work.title}
-                            employer={work.employer}
-                            dates={work.dates}
-                            description={work.description}
-                            bullets={work.bullets}
-                            link={work.link}
-                            section={work.section}
+                            data={work}
                         />
                 )}
                 <Section 
@@ -82,13 +64,7 @@ const Resume = () => {
                 {projects.map( (work, index) => 
                         <Experience
                             key={index}
-                            title={work.title}
-                            employer={work.employer}
-                            dates={work.dates}
-                            description={work.description}
-                            bullets={work.bullets}
-                            link={work.link}
-                            section={work.section}
+                            data={work}
                         />
                 )}
                 <Section 
