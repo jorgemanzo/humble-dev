@@ -31,6 +31,6 @@
     },
     {
         "name" : "Methodology",
-        "values" : ["Agile,", "Waterfall,", "Design Patterns,", "MVC,", "OOP,", "RAII,", "PaaS,", "SDLC,", "TDD"]
+        "values" : ["Agile,", "Waterfall,", "Design Patterns,", "MVC,", "OOP,", "PaaS,", "SDLC,", "TDD"]
     }
 ]

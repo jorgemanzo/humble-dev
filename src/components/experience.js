@@ -2,51 +2,22 @@ import React from 'react'
 import styled from '@emotion/styled'
 import P from './p'
 import Bullet from './bullet'
-import Source from './simpleLink'
-import Extern from '../images/external-link.svg'
+import ExperienceTitle from './experienceTitle'
 const Experience = (props) => {
-    const WorkTitle = styled.div`
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 25px;
-    `
-    const SmallerH1 = styled.h1`
-        font-size: calc(14pt + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
-        margin: 15px;
-    `
-    const Employer = styled.em`
-        margin-top: 26px;
-        margin-left: 10vw;
-        padding-right: 10vw;
-    `
     const BottomMargin = styled.div`
         margin-bottom: 25px;
     `
     return (
         <BottomMargin>
-            <div><Source name={props.section}></Source></div>
-            <Source href={`#${props.section}`}>
-                <WorkTitle >
-                    <SmallerH1>{props.title}</SmallerH1>
-                    <SmallerH1>{props.dates}</SmallerH1>
-                </WorkTitle>
-            </Source>
-            {
-                props.link ?
-                <Employer>
-                    <Source href={props.link} target="_blank">
-                        {props.employer}&nbsp;<img alt="Open Link in a New Tab" src={Extern}></img>
-                    </Source>
-                </Employer> : 
-                <Employer>{props.employer}</Employer>
-            }
+            <ExperienceTitle 
+                data={props.data}
+            />
             <P>
-                {props.description}
+                {props.data.description}
             </P>
             <ul>
                 {
-                    props.bullets.map(
+                    props.data.bullets.map(
                         (bullet, index) => <Bullet key={index}>{bullet.point}</Bullet>
                     )
                 }

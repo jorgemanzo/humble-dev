@@ -17,7 +17,7 @@
     {
         "title":"Graduate Application Notifier",
         "employer" : "Oregon State University",
-        "dates" : "June 2018 - July 2020",
+        "dates" : "June 2019 - July 2020",
         "section" : "graduate_application_notifier",
         "description" : "Migrated an existing legacy process used to notify university graduate faculty of newly submitted graduate applications to Salesforce.",
         "bullets" : [
