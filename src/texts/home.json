@@ -20,16 +20,25 @@
     "employer" : "",
     "dates" : "",
     "section" : "",
-    "description" : "Lately my interests include:",
+    "description" : "A few highlights about me:",
     "bullets" : [
       {
-        "point" : "Laravel PHP for quickly developing RESTful API endpoints and connecting web apps to MySQL-like databases using the Eloquent ORM"
+        "point" : "B.S. in Computer Science"
       },
       {
-        "point" : "Creating my own personal web app (this one) using ReactJS, Emotion for styling, and hosted on Heroku"
+        "point" : "Two years of programming experiences as a Student Analyst / Programmer for Oregon State University"
       },
       {
-        "point" : "Exploring lower-level operating system Kernel development, by starting with writing a bootloader using NASM, switching from real mode to protected mode, and jumping to C code using an emulated Intel i386."
+        "point" : "Strong skills in object oriented programming and web development (Java, JavaScript and HTML/CSS)"
+      },
+      {
+        "point" : "Relational database experience (MySQL/MariaDB)"
+      },
+      {
+        "point" : "Desire to learn, grow and contribute"
+      },
+      {
+        "point" : "Always working on something: From React to Angular, from NodeJS to PHP, from C to Swift."
       }
     ]
   },
