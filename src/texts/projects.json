@@ -69,5 +69,14 @@
         "description" : "Contributed to a CLI tool using Python to assist users flashing mechanical keyboard firmware. Changes also included documentation written in Markdown and unit tests.",
         "link" : "https://github.com/qmk/qmk_firmware/pull/6998",
         "bullets" : []
+    },
+    {
+        "title":"Weather Puffin, A MacOS Weather Application",
+        "employer" : "Personal Project",
+        "dates" : "October 2018",
+        "section" : "weather_puffin_osx",
+        "description" : "Created a native weather application for Mac OSX written in Swift, relying on a few external packages to support JSON to Swift object processing.",
+        "link" : "https://github.com/jorgemanzo/weatherPuffin",
+        "bullets" : []
     }
 ]
