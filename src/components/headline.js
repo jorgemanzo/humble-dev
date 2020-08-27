@@ -24,10 +24,10 @@ const Headline = () => {
       <StyledRow>
         <Selfie 
           altText="Photo of Myself" 
-          captionText="Jorge Manzo" 
+          captionText="" 
         />
         <StyledH1>
-          <H1>The Humble Developer</H1>
+          <H1>Jorge Manzo</H1>
         </StyledH1>
       </StyledRow>
     </StyledRoot>
