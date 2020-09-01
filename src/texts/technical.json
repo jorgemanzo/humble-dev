@@ -1,12 +1,12 @@
 [
     {
-        "values" : ["Windows,", "Ubuntu Linux,", "OSX"],
+        "values" : ["Windows,", "Ubuntu Linux,", "MacOS"],
         "name" : "Operating Systems"
     },
     {
         "name" : "Languages",
         "values" : [
-            "Apex,", "Java,", "JavaScript ES6,", "C++/C,", "Rust,", "Vala,", "Swift,", "NASM,", "GObject,", "Python,", "Haskell,", "R,",
+            "Apex,", "Java,", "JavaScript ES6,", "Go,", "C++/C,", "Rust,", "Vala,", "Swift,", "NASM,", "GObject,", "Python,", "Haskell,", "R,",
             "HTML5,", "CSS,", "XML,", "JSON,", "SQL / SOQL,", "GraphQL,", "Bash / Shell scripting,", "Batch"
         ]
     },
@@ -21,13 +21,13 @@
     {
         "name" : "Frameworks / Libraries",
         "values" : [
-            "ReactJS,", "NextJS,", "TypeScript,", "Redux,", "VueJS,", "NodeJS,", "Express,", "Laravel PHP,", "Boostrap,",
-            "OpenMP,", "OpenCL,", "OpenGL,", "CUDA,", "Flex,", "Bison,", "LLVM,", "VisualForce,", "Lightning,", "ROS"
+            "ReactJS,", "Angular,", "NextJS,", "TypeScript,", "Redux,", "VueJS,", "NodeJS,", "Express,", "Laravel PHP,", "Boostrap,",
+            "OpenMP,", "OpenCL,", "OpenGL,", "CUDA,", "Flex,", "Bison,", "LLVM,", "VisualForce"
         ]
     },
     {
         "values" : ["Heroku,", "Digital Ocean,", "Salesforce"],
-        "name" : "Service Platforms"
+        "name" : "Cloud Platforms"
     },
     {
         "name" : "Methodology",
