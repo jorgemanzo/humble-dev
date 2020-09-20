@@ -45,15 +45,6 @@
     },
     {
         "title":"Code Editor, Elementary OS",
-        "employer" : "Work in Progress Open Source Contribution",
-        "dates" : "June 2020",
-        "section" : "code_git_diff",
-        "description" : "Implemented Git-diff style line change markers to the Code editor included in the Elementary OS Linux distribution.",
-        "link" : "https://github.com/elementary/code/pull/835",
-        "bullets" : []
-    },
-    {
-        "title":"Code Editor, Elementary OS",
         "employer" : "Open Source Contribution",
         "dates" : "October 2019",
         "section" : "code_status_indicator",
