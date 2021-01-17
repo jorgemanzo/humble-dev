@@ -1,5 +1,33 @@
 [
     {
+        "title":"Customer Payment Portal",
+        "employer" : "EasyPower LLC",
+        "dates" : "September 2020 - Present",
+        "description" : "Continued development and deployed a payment portal for customers to pay for Softwre License renewals in Salesforce.",
+        "link" : "https://portal.easypower.com/",
+        "section" : "easypower_portal",
+        "bullets" : [
+            { "point" : "Implemented payment processing using a 3rd party payment provider REST API." },
+            { "point" : "Built webpages using the Salesforce Visualforce MVC with Apex and SOQL." },
+            { "point" : "Automated invoice PDF generation for purchases made through payment portal."}
+        ]
+    },
+    {
+        "title":"Graduate Digital Program of Study",
+        "employer" : "Oregon State University",
+        "dates" : "June 2018 - July 2020",
+        "description" : "Developed software to provide over 3,500 graduate students tools for their Program of Study using the Salesforce platform.",
+        "link" : "https://gradschool.oregonstate.edu/forms#program",
+        "section" : "graduate_program_of_study",
+        "bullets" : [
+            { "point" : "Designed a kanban-style degree planner for students connected to a database of hundereds of courses." },
+            { "point" : "Automated requirements checking giving the student instant feedback on their course selection." },
+            { "point" : "Featured automatic PDF generation saving students and staff time by eliminating the need for hand-written forms."},
+            { "point" : "Consolidated the need from 10 different paper forms to a component based, extensible system for digital form generation."},
+            { "point" : "Tailored the system to meet the requirements of over 80 unique graduate programs."}
+        ]
+    },
+    {
         "title":"Graduate Digital Program of Study",
         "employer" : "Oregon State University",
         "dates" : "June 2018 - July 2020",
@@ -36,38 +64,11 @@
         "link" : "https://github.com/peerist/capstone",
         "bullets" : [
             {
-                "point" : "Coordinated requirements gathering for our development team and our client."
+                "point" : "Proof of concept single-page web application."
             },
             {
-                "point" : "Designed database schema using the Hasura GraphQL engine, Postgres, Docker, and a front-end using React."
+                "point" : "Designed database schema using the Hasura-GraphQL engine, React for web UI, and NextJS for static /server rendering."
             }
         ]
-    },
-    {
-        "title":"Code Editor, Elementary OS",
-        "employer" : "Open Source Contribution",
-        "dates" : "October 2019",
-        "section" : "code_status_indicator",
-        "description" : "Added a status indicator for text searching to the Code editor included in the Elementary OS Linux distribution. Change was requested by a user with difficulty seeing red and green colors. Used Vala (similar to Java) to complete the change.",
-        "link" : "https://github.com/elementary/code/pull/720",
-        "bullets" : []
-    },
-    {
-        "title":"CLI, QMK Firmware",
-        "employer" : "Open Source Contribution",
-        "dates" : "October 2019",
-        "section" : "qmk_firmware_cli",
-        "description" : "Contributed to a CLI tool using Python to assist users flashing mechanical keyboard firmware. Changes also included documentation written in Markdown and unit tests.",
-        "link" : "https://github.com/qmk/qmk_firmware/pull/6998",
-        "bullets" : []
-    },
-    {
-        "title":"Weather Puffin, A MacOS Weather Application",
-        "employer" : "Personal Project",
-        "dates" : "October 2018",
-        "section" : "weather_puffin_osx",
-        "description" : "Created a native weather application for Mac OSX written in Swift, relying on a few external packages to support JSON to Swift object processing.",
-        "link" : "https://github.com/jorgemanzo/weatherPuffin",
-        "bullets" : []
     }
 ]

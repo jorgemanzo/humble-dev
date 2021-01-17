@@ -1,5 +1,23 @@
 [
     {
+        "title":"Software Engineer Web Developer",
+        "employer" : "EasyPower LLC. Tualatin, OR",
+        "dates" : "September 2020 - Present",
+        "section" : "easypower_se_webdeveloper",
+        "description" : "Full time software engineer implementing front and back-end web applications in an existing code base to meet business needs on the Salesforce PaaS.",
+        "bullets" : [
+            {
+                "point" : "Contributed to and gained experience leading projects throughout the software development life cycle from requirements gathering to release and maintenance."
+            },
+            {
+                "point" : "Primary technologies include Visualforce (HTML dynamic web page framework), Apex (similar to Java)and SOQL (similar to SQL) MVC."
+            },
+            {
+                "point" : "Worked with development managers and stakeholders to plan development sprints and triage bug reports."
+            }
+        ]
+    },
+    {
         "title":"Student Analyst / Programmer",
         "employer" : "Oregon State University",
         "dates" : "June 2018 - June 2020",
@@ -10,7 +28,7 @@
                 "point" : "Contributed to and gained experience leading projects throughout the software development life cycle from requirements gathering to release and maintenance."
             },
             {
-                "point" : "Developed Object-Oriented (OOP) applications in Salesforce's PaaS environment using Apex (similar to Java) and SOQL (similar to SQL) with attention to shared tenancy constraints."
+                "point" : "Developed OOP applications in Salesforce's PaaS environment using Apex and SOQL with attention to shared tenancy constraints."
             },
             {
                 "point" : "Wrote Apex Unit Testing suites to meet the platform's required code coverage in order to deploy each project to production."
