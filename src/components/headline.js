@@ -27,7 +27,8 @@ const Headline = () => {
           captionText="" 
         />
         <StyledH1>
-          <H1>Jorge Manzo</H1>
+          <H1>Milly Guitron</H1>
+          <em>(formerly Jorge Manzo)</em>
         </StyledH1>
       </StyledRow>
     </StyledRoot>
