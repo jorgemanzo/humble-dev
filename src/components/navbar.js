@@ -55,13 +55,13 @@ const Navbar = () => {
             <Link to="/resume">Resume</Link>
           </StyledLi>
           <StyledLi>
-            <a href="https://github.com/jorgemanzo">GitHub</a>
+            <a href="https://github.com/millyguitron">GitHub</a>
           </StyledLi>
           <StyledLi>
             <a href="https://linkedin.com/in/manzoj">LinkedIn</a>
           </StyledLi>
           <StyledRightLi>
-            <a href="https://github.com/jorgemanzo/humble-dev">Made in React</a>
+            <a href="https://github.com/millyguitron/humble-dev">Made in React</a>
           </StyledRightLi>
         </StyledUl>
       </nav>
