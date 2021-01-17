@@ -23,9 +23,9 @@ const Resume = () => {
         <div>
             <Container>
                 <PaddedCode>
-                    <Link href="mailto:jorge@humble-dev.app">jorge@humble-dev.app</Link>
+                    <Link href="mailto:milly@humble-dev.app">milly@humble-dev.app</Link>
                     &nbsp;
-                    <img src={Mail} alt="Email Jorge Manzo"></img>
+                    <img src={Mail} alt="Email Milly Guitron"></img>
                 </PaddedCode>
                 <Section 
                     sectionTitle="Objective"
