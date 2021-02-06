@@ -5,8 +5,8 @@ import styled from '@emotion/styled';
 const Table = (props) => {
     const LeftTable = styled.table`
         text-align: left;
-        margin-left: calc(15px + (300 - 15) * ((100vw - 300px) / (1600 - 300)));
-        margin-right: calc(15px + (300 - 15) * ((100vw - 300px) / (1600 - 300)));
+        margin-left: calc(40px + (450 - 40) * ((100vw - 450px) / (1600 - 450)));
+        margin-right: calc(40px + (450 - 40) * ((100vw - 450px) / (1600 - 450)));
         border-radius: 5px;
         border: 2px solid black;
     `
